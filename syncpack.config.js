@@ -2,8 +2,13 @@
 
 /** @type {import("syncpack").RcFile} */
 export default {
-	dependencyTypes: ["prod"],
-	source: ["package.json", "packages/*/package.json"],
+	dependencyTypes: ["dev", "prod", "peer"],
+	source: [
+		"package.json",
+		"packages/*/package.json",
+		"apps/*/package.json",
+		"configs/*/package.json",
+	],
 	sortFirst: ["name", "version", "private", "description", "type"],
 	versionGroups: [
 		{

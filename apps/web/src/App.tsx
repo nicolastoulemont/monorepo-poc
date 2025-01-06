@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from "@poc/ui";
+import { Button } from "@poc/ui-kit";
 
 function App() {
 	const [count, setCount] = useState(0);
