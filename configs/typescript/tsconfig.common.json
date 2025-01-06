@@ -1,0 +1,30 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		// I/O
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		// Emitted code
+		"target": "ESNext",
+		"lib": ["ESNext", "DOM"],
+		// Modules
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		// Code quality rules
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noUnusedParameters": false,
+		"noUnusedLocals": false,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": true,
+		// Errors related
+		"allowUnreachableCode": false,
+		"noFallthroughCasesInSwitch": true,
+		"noErrorTruncation": true,
+		// Import related
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"isolatedModules": true
+	}
+}
