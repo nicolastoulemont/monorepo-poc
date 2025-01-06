@@ -1,12 +1,12 @@
 {
-	"name": "@poc/tailwind-config",
-	"version": "0.0.0",
-	"private": true,
-	"exports": {
-		".": "./tailwind.config.ts"
-	},
-	"devDependencies": {
-		"tailwindcss": "^3.4.11",
-		"@poc/typescript-config": "workspace:*"
-	}
+  "name": "@poc/tailwind-config",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./tailwind.config.ts"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.11",
+    "@poc/typescript-config": "workspace:*"
+  }
 }

@@ -1,19 +1,19 @@
 import { expect, describe, test } from "vitest"
-  import { render, fireEvent } from '@testing-library/react';
-import { Component495 } from './Component495';
+import { render, fireEvent } from "@testing-library/react"
+import { Component495 } from "./Component495"
 
-describe('Component495', () => {
-  test('should render successfully', () => {
-    const { baseElement } = render(<Component495 />);
-    expect(baseElement).toBeTruthy();
-  });
+describe("Component495", () => {
+  test("should render successfully", () => {
+    const { baseElement } = render(<Component495 />)
+    expect(baseElement).toBeTruthy()
+  })
 
-  test('should increment counter when button is clicked', () => {
-    const { getByRole } = render(<Component495 />);
-    const button = getByRole('button');
-    
-    fireEvent.click(button);
-    
-    expect(button.textContent).toBe("Count is: 1");
-  });
-});
+  test("should increment counter when button is clicked", () => {
+    const { getByRole } = render(<Component495 />)
+    const button = getByRole("button")
+
+    fireEvent.click(button)
+
+    expect(button.textContent).toBe("Count is: 1")
+  })
+})

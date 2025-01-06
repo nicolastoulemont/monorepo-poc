@@ -7,6 +7,7 @@
     "lint": "pnpm biome lint .",
     "lint:fix": "pnpm biome lint --write .",
     "lint:fix:unsafe": "pnpm biome lint --write --unsafe .",
+    "format": "pnpm biome format --write .",
     "deps:sync:list": "pnpm syncpack list",
     "generate:components": "tsx scripts/generate.react.components.ts"
   },

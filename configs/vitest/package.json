@@ -1,11 +1,11 @@
 {
-	"name": "@poc/vitest-config",
-	"version": "0.0.0",
-	"private": true,
-	"exports": {
-		".": "./vitest.config.js"
-	},
-	"devDependencies": {
-		"vitest": "^2.1.8"
-	}
+  "name": "@poc/vitest-config",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./vitest.config.js"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
 }

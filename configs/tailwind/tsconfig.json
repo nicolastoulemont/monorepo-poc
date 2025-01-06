@@ -1,5 +1,5 @@
 {
-	"extends": "@poc/typescript-config/tsconfig.packages.json",
-	"include": ["."],
-	"exclude": ["dist", "build", "node_modules"]
+  "extends": "@poc/typescript-config/tsconfig.packages.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
 }
