@@ -87,6 +87,15 @@ importers:
 
   configs/typescript: {}
 
+  configs/vitest:
+    devDependencies:
+      '@poc/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript
+      vitest:
+        specifier: ^2.1.8
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+
   packages/ui:
     devDependencies:
       '@chromatic-com/storybook':
@@ -98,6 +107,9 @@ importers:
       '@poc/typescript-config':
         specifier: workspace:*
         version: link:../../configs/typescript
+      '@poc/vitest-config':
+        specifier: workspace:*
+        version: link:../../configs/vitest
       '@storybook/addon-essentials':
         specifier: ^8.4.7
         version: 8.4.7(@types/react@18.3.18)(storybook@8.4.7)
@@ -4713,6 +4725,28 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@vitest/browser@2.1.8(@types/node@22.10.5)(playwright@1.49.1)(typescript@5.7.2)(vite@5.4.11(@types/node@22.10.5)(terser@5.37.0))(vitest@2.1.8)':
+    dependencies:
+      '@testing-library/dom': 10.4.0
+      '@testing-library/user-event': 14.5.2(@testing-library/dom@10.4.0)
+      '@vitest/mocker': 2.1.8(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(vite@5.4.11(@types/node@22.10.5)(terser@5.37.0))
+      '@vitest/utils': 2.1.8
+      magic-string: 0.30.17
+      msw: 2.7.0(@types/node@22.10.5)(typescript@5.7.2)
+      sirv: 3.0.0
+      tinyrainbow: 1.2.0
+      vitest: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+      ws: 8.18.0
+    optionalDependencies:
+      playwright: 1.49.1
+    transitivePeerDependencies:
+      - '@types/node'
+      - bufferutil
+      - typescript
+      - utf-8-validate
+      - vite
+    optional: true
+
   '@vitest/browser@2.1.8(@types/node@22.10.5)(playwright@1.49.1)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vitest@2.1.8)':
     dependencies:
       '@testing-library/dom': 10.4.0
@@ -7005,7 +7039,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 22.10.5
-      '@vitest/browser': 2.1.8(@types/node@22.10.5)(playwright@1.49.1)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vitest@2.1.8)
+      '@vitest/browser': 2.1.8(@types/node@22.10.5)(playwright@1.49.1)(typescript@5.7.2)(vite@5.4.11(@types/node@22.10.5)(terser@5.37.0))(vitest@2.1.8)
     transitivePeerDependencies:
       - less
       - lightningcss
