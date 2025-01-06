@@ -7,13 +7,15 @@
     "lint": "pnpm biome lint .",
     "lint:fix": "pnpm biome lint --write .",
     "lint:fix:unsafe": "pnpm biome lint --write --unsafe .",
-    "deps:sync:list": "pnpm syncpack list"
+    "deps:sync:list": "pnpm syncpack list",
+    "generate:components": "tsx scripts/generate.react.components.ts"
   },
   "keywords": [],
   "author": "ntoulemont",
   "license": "ISC",
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
+    "@types/node": "^22.10.5",
     "syncpack": "^13.0.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"

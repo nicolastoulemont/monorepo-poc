@@ -1,7 +1,7 @@
 {
-  "name": "@poc/ui",
+  "name": "@poc/one",
   "version": "1.0.0",
-  "description": "ui package",
+  "description": "one package",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,6 +15,9 @@
   "keywords": [],
   "author": "ntoulemont",
   "license": "ISC",
+  "dependencies": {
+    "@poc/ui": "workspace:*"
+  },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.3",
     "@poc/tailwind-config": "workspace:*",
@@ -27,6 +30,7 @@
     "@storybook/react": "^8.4.7",
     "@storybook/react-vite": "^8.4.7",
     "@storybook/test": "^8.4.7",
+    "@testing-library/react": "^16.1.0",
     "@types/node": "^22.10.5",
     "@types/react": "^18.3.18",
     "@vitejs/plugin-react": "^4.3.4",

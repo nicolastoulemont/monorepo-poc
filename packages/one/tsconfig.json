@@ -1,0 +1,8 @@
+{
+	"extends": "@poc/typescript-config/tsconfig.react.json",
+	"compilerOptions": {
+		"types": ["@vitest/browser/providers/playwright"]
+	},
+	"include": [".", "vite.config.ts"],
+	"exclude": ["dist", "build", "node_modules"]
+}
