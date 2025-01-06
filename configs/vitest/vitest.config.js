@@ -10,6 +10,7 @@ export default {
 		enabled: true,
 		name: "chromium",
 		provider: "playwright",
+		headless: true,
 		// https://playwright.dev
 		providerOptions: {},
 	},

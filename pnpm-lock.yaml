@@ -89,9 +89,6 @@ importers:
 
   configs/vitest:
     devDependencies:
-      '@poc/typescript-config':
-        specifier: workspace:*
-        version: link:../typescript
       vitest:
         specifier: ^2.1.8
         version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
