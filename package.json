@@ -1,17 +1,21 @@
 {
-	"name": "monorepo-poc",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"deps:sync:list": "pnpm syncpack list"
-	},
-	"keywords": [],
-	"author": "ntoulemont",
-	"license": "ISC",
-	"devDependencies": {
-		"syncpack": "^13.0.0",
-		"tsx": "^4.19.2",
-		"typescript": "^5.7.2"
-	}
+  "name": "monorepo-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "pnpm biome lint .",
+    "lint:fix": "pnpm biome lint --write .",
+    "lint:fix:unsafe": "pnpm biome lint --write --unsafe .",
+    "deps:sync:list": "pnpm syncpack list"
+  },
+  "keywords": [],
+  "author": "ntoulemont",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "syncpack": "^13.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
 }
