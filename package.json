@@ -17,6 +17,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@types/node": "^22.10.5",
+    "nx": "20.3.0",
     "syncpack": "^13.0.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"

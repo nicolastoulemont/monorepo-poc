@@ -3,3 +3,8 @@ dist
 .env
 
 *storybook.log
+
+
+
+.nx/cache
+.nx/workspace-data
