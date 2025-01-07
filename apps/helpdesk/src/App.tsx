@@ -8,7 +8,7 @@ import { ComponentContainer as ComponentContainer5 } from "@poc/five"
 import { ComponentContainer as ComponentContainer6 } from "@poc/six"
 import { ComponentContainer as ComponentContainer7 } from "@poc/seven"
 import { ComponentContainer as ComponentContainer8 } from "@poc/eight"
-
+import { ComponentContainer as ComponentContainer9 } from "@poc/nine"
 export function App() {
   return (
     
@@ -22,6 +22,7 @@ export function App() {
       <ComponentContainer6 />
       <ComponentContainer7 />
       <ComponentContainer8 />
+      <ComponentContainer9 />
     </div>
   )
 }
