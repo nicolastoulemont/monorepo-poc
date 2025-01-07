@@ -18,6 +18,7 @@
     "@poc/four": "workspace:*",
     "@poc/five": "workspace:*",
     "@poc/six": "workspace:*",
+    "@poc/ten": "workspace:*",
     "@poc/ui": "workspace:*",
     "@poc/seven": "workspace:*",
     "@poc/eight": "workspace:*",
