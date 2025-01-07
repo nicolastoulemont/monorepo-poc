@@ -45,7 +45,7 @@ export const ${componentName} = ({ defaultCount = 0 }: ${componentName}Props) =>
   const [count, setCount] = useState(defaultCount);
 
   return (
-    <div className="p-4 rounded-lg shadow-md bg-white hover:shadow-lg transition-shadow">
+    <div className="p-3">
       <h3 className="text-lg font-semibold mb-3 text-gray-800">${componentName}</h3>
       <Button onClick={() => setCount(prev => prev + 1)}>
         Count is: {count}
@@ -77,11 +77,9 @@ function generateContainer(components: string[], outputPath: string) {
 
 export const ComponentContainer = () => {
   return (
-    <div className="mx-auto p-6 bg-gray-50 min-h-screen">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="p-6 min-h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         ${components.map((name) => `<${name} />`).join("\n        ")}
       </div>
-    </div>
   );
 };
 `

@@ -1,8 +1,9 @@
+import "@poc/one/dist/index.css"
 import { ComponentContainer } from "@poc/one"
 
 function App() {
   return (
-    <div className="grid grid-cols-2 min-h-screen w-full p-6">
+    <div className="min-h-screen w-full">
       <ComponentContainer />
     </div>
   )
