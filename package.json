@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:helpdesk": "turbo run dev --filter=@poc/helpdesk...",
+    "dev:helpdesk:build": "turbo watch build --filter=@poc/helpdesk^...",
+    "dev:helpdesk": "turbo run dev --filter=@poc/helpdesk",
+    "dev:helpdesk:watch": "turbo run dev --filter=@poc/helpdesk... --concurrency=15",
     "build:affected": "pnpm turbo build --affected",
     "lint:affected": "pnpm turbo lint --affected",
     "typecheck:affected": "pnpm turbo typecheck --affected",

@@ -6,6 +6,7 @@
     ".": "./vitest.config.mjs"
   },
   "devDependencies": {
+    "happy-dom": "^16.3.0",
     "vitest": "^2.1.8"
   }
 }

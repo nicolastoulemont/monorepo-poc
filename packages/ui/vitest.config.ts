@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [react()],
   test: {
     ...sharedConfig,
-    // Potential overrides below
+   // Local overrides below
   },
 })

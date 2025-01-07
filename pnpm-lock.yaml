@@ -87,6 +87,9 @@ importers:
       '@poc/vitest-config':
         specifier: workspace:*
         version: link:../../configs/vitest
+      '@testing-library/jest-dom':
+        specifier: ^6.6.3
+        version: 6.6.3
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -111,6 +114,9 @@ importers:
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -128,7 +134,7 @@ importers:
         version: 6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0)
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
 
   configs/eslint:
     devDependencies:
@@ -164,9 +170,12 @@ importers:
 
   configs/vitest:
     devDependencies:
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
 
   packages/eight:
     dependencies:
@@ -207,6 +216,9 @@ importers:
       '@storybook/test':
         specifier: ^8.4.7
         version: 8.4.7(storybook@8.4.7)
+      '@testing-library/jest-dom':
+        specifier: ^6.6.3
+        version: 6.6.3
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -228,6 +240,9 @@ importers:
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -260,7 +275,7 @@ importers:
         version: 4.4.0(@types/node@22.10.5)(rollup@4.30.0)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
       vitest-browser-react:
         specifier: ^0.0.4
         version: 0.0.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(@vitest/browser@2.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vitest@2.1.8)
@@ -304,6 +319,9 @@ importers:
       '@storybook/test':
         specifier: ^8.4.7
         version: 8.4.7(storybook@8.4.7)
+      '@testing-library/jest-dom':
+        specifier: ^6.6.3
+        version: 6.6.3
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -325,6 +343,9 @@ importers:
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -357,7 +378,7 @@ importers:
         version: 4.4.0(@types/node@22.10.5)(rollup@4.30.0)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
       vitest-browser-react:
         specifier: ^0.0.4
         version: 0.0.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(@vitest/browser@2.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vitest@2.1.8)
@@ -401,6 +422,9 @@ importers:
       '@storybook/test':
         specifier: ^8.4.7
         version: 8.4.7(storybook@8.4.7)
+      '@testing-library/jest-dom':
+        specifier: ^6.6.3
+        version: 6.6.3
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -422,6 +446,9 @@ importers:
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -454,7 +481,7 @@ importers:
         version: 4.4.0(@types/node@22.10.5)(rollup@4.30.0)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
       vitest-browser-react:
         specifier: ^0.0.4
         version: 0.0.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(@vitest/browser@2.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vitest@2.1.8)
@@ -498,6 +525,9 @@ importers:
       '@storybook/test':
         specifier: ^8.4.7
         version: 8.4.7(storybook@8.4.7)
+      '@testing-library/jest-dom':
+        specifier: ^6.6.3
+        version: 6.6.3
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -519,6 +549,9 @@ importers:
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -551,7 +584,7 @@ importers:
         version: 4.4.0(@types/node@22.10.5)(rollup@4.30.0)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
       vitest-browser-react:
         specifier: ^0.0.4
         version: 0.0.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(@vitest/browser@2.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vitest@2.1.8)
@@ -595,6 +628,9 @@ importers:
       '@storybook/test':
         specifier: ^8.4.7
         version: 8.4.7(storybook@8.4.7)
+      '@testing-library/jest-dom':
+        specifier: ^6.6.3
+        version: 6.6.3
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -616,6 +652,9 @@ importers:
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -648,7 +687,7 @@ importers:
         version: 4.4.0(@types/node@22.10.5)(rollup@4.30.0)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
       vitest-browser-react:
         specifier: ^0.0.4
         version: 0.0.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(@vitest/browser@2.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vitest@2.1.8)
@@ -692,6 +731,9 @@ importers:
       '@storybook/test':
         specifier: ^8.4.7
         version: 8.4.7(storybook@8.4.7)
+      '@testing-library/jest-dom':
+        specifier: ^6.6.3
+        version: 6.6.3
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -713,6 +755,9 @@ importers:
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -745,7 +790,7 @@ importers:
         version: 4.4.0(@types/node@22.10.5)(rollup@4.30.0)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
       vitest-browser-react:
         specifier: ^0.0.4
         version: 0.0.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(@vitest/browser@2.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vitest@2.1.8)
@@ -789,6 +834,9 @@ importers:
       '@storybook/test':
         specifier: ^8.4.7
         version: 8.4.7(storybook@8.4.7)
+      '@testing-library/jest-dom':
+        specifier: ^6.6.3
+        version: 6.6.3
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -810,6 +858,9 @@ importers:
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -842,7 +893,7 @@ importers:
         version: 4.4.0(@types/node@22.10.5)(rollup@4.30.0)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
       vitest-browser-react:
         specifier: ^0.0.4
         version: 0.0.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(@vitest/browser@2.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vitest@2.1.8)
@@ -886,6 +937,9 @@ importers:
       '@storybook/test':
         specifier: ^8.4.7
         version: 8.4.7(storybook@8.4.7)
+      '@testing-library/jest-dom':
+        specifier: ^6.6.3
+        version: 6.6.3
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -907,6 +961,9 @@ importers:
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -939,7 +996,7 @@ importers:
         version: 4.4.0(@types/node@22.10.5)(rollup@4.30.0)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
       vitest-browser-react:
         specifier: ^0.0.4
         version: 0.0.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(@vitest/browser@2.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vitest@2.1.8)
@@ -983,6 +1040,9 @@ importers:
       '@storybook/test':
         specifier: ^8.4.7
         version: 8.4.7(storybook@8.4.7)
+      '@testing-library/jest-dom':
+        specifier: ^6.6.3
+        version: 6.6.3
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1004,6 +1064,9 @@ importers:
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -1036,7 +1099,7 @@ importers:
         version: 4.4.0(@types/node@22.10.5)(rollup@4.30.0)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
       vitest-browser-react:
         specifier: ^0.0.4
         version: 0.0.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(@vitest/browser@2.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vitest@2.1.8)
@@ -1080,6 +1143,9 @@ importers:
       '@storybook/test':
         specifier: ^8.4.7
         version: 8.4.7(storybook@8.4.7)
+      '@testing-library/jest-dom':
+        specifier: ^6.6.3
+        version: 6.6.3
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1101,6 +1167,9 @@ importers:
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -1133,7 +1202,7 @@ importers:
         version: 4.4.0(@types/node@22.10.5)(rollup@4.30.0)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
       vitest-browser-react:
         specifier: ^0.0.4
         version: 0.0.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(@vitest/browser@2.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vitest@2.1.8)
@@ -1177,6 +1246,9 @@ importers:
       '@storybook/test':
         specifier: ^8.4.7
         version: 8.4.7(storybook@8.4.7)
+      '@testing-library/jest-dom':
+        specifier: ^6.6.3
+        version: 6.6.3
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1198,6 +1270,9 @@ importers:
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -1230,7 +1305,7 @@ importers:
         version: 4.4.0(@types/node@22.10.5)(rollup@4.30.0)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
       vitest-browser-react:
         specifier: ^0.0.4
         version: 0.0.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(@vitest/browser@2.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vitest@2.1.8)
@@ -1274,6 +1349,9 @@ importers:
       '@storybook/test':
         specifier: ^8.4.7
         version: 8.4.7(storybook@8.4.7)
+      '@testing-library/jest-dom':
+        specifier: ^6.6.3
+        version: 6.6.3
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1295,6 +1373,9 @@ importers:
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -1327,7 +1408,7 @@ importers:
         version: 4.4.0(@types/node@22.10.5)(rollup@4.30.0)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
       vitest-browser-react:
         specifier: ^0.0.4
         version: 0.0.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(@vitest/browser@2.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vitest@2.1.8)
@@ -1367,6 +1448,9 @@ importers:
       '@storybook/test':
         specifier: ^8.4.7
         version: 8.4.7(storybook@8.4.7)
+      '@testing-library/jest-dom':
+        specifier: ^6.6.3
+        version: 6.6.3
       '@testing-library/react':
         specifier: ^16.1.0
         version: 16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1388,6 +1472,9 @@ importers:
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@1.21.7)
+      happy-dom:
+        specifier: ^16.3.0
+        version: 16.3.0
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
@@ -1420,7 +1507,7 @@ importers:
         version: 4.4.0(@types/node@22.10.5)(rollup@4.30.0)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
       vitest:
         specifier: ^2.1.8
-        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+        version: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
       vitest-browser-react:
         specifier: ^0.0.4
         version: 0.0.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(@vitest/browser@2.1.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vitest@2.1.8)
@@ -2573,6 +2660,10 @@ packages:
     resolution: {integrity: sha512-xGGHpBXYSHUUr6XsKBfs85TWlYKpTc37cSBBVrXcib2MkHLboWlkClhWF37JKlDb9KEq3dHs+f2xR7XJEWGBxA==}
     engines: {node: '>=14', npm: '>=6', yarn: '>=1'}
 
+  '@testing-library/jest-dom@6.6.3':
+    resolution: {integrity: sha512-IteBhl4XqYNkM54f4ejhLRJiZNqcSCoXUOG2CPK7qbD322KjQozM4kHQOfkG2oln9b9HTYqs+Sae8vBATubxxA==}
+    engines: {node: '>=14', npm: '>=6', yarn: '>=1'}
+
   '@testing-library/react@16.1.0':
     resolution: {integrity: sha512-Q2ToPvg0KsVL0ohND9A3zLJWcOXXcO8IDu3fj11KhNt0UlCWyFyvnCIBkd12tidB2lkiVRG8VFqdhcqhqnAQtg==}
     engines: {node: '>=18'}
@@ -3571,6 +3662,10 @@ packages:
   graphql@16.10.0:
     resolution: {integrity: sha512-AjqGKbDGUFRKIRCP9tCKiIGHyriz2oHEbPIbEtcSLSs4YjReZOIPQQWek4+6hjw62H9QShXHyaGivGiYVLeYFQ==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
+
+  happy-dom@16.3.0:
+    resolution: {integrity: sha512-Q71RaIhyS21vhW17Tpa5W36yqQXIlE1TZ0A0Gguts8PShUSQE/7fBgxYGxgm3+5y0gF6afdlAVHLQqgrIcfRzg==}
+    engines: {node: '>=18.0.0'}
 
   has-bigints@1.1.0:
     resolution: {integrity: sha512-R3pbpkcIqv2Pm3dUwgjclDRVmWpTJW2DcMzcIhEXEx1oh/CEMObMm3KLmRJOdvhM7o4uQBnwr8pzRK2sJWIqfg==}
@@ -5065,8 +5160,16 @@ packages:
   wcwidth@1.0.1:
     resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}
 
+  webidl-conversions@7.0.0:
+    resolution: {integrity: sha512-VwddBukDzu71offAQR975unBIGqfKZpM+8ZX6ySk8nYhVoo5CYaZyzt3YBvYtRtO+aoGlqxPg/B87NGVZ/fu6g==}
+    engines: {node: '>=12'}
+
   webpack-virtual-modules@0.6.2:
     resolution: {integrity: sha512-66/V2i5hQanC51vBQKPH4aI8NMAcBW59FVBs+rC7eGHupMyfn34q7rZIE+ETlJ+XTevqfUhVVBgSUNSW2flEUQ==}
+
+  whatwg-mimetype@3.0.0:
+    resolution: {integrity: sha512-nt+N2dzIutVRxARx1nghPKGv1xHikU7HKdfafKkLNLindmPU/ch3U31NOCGGA/dmPcmb1VlofO0vnKAcsm0o/Q==}
+    engines: {node: '>=12'}
 
   which-boxed-primitive@1.1.1:
     resolution: {integrity: sha512-TbX3mj8n0odCBFVlY8AxkqcHASw3L60jIuF8jFP78az3C2YhmGvqbHBpAjTRH2/xqYunrJ9g1jSyjCjpoWzIAA==}
@@ -6167,6 +6270,16 @@ snapshots:
       lodash: 4.17.21
       redent: 3.0.0
 
+  '@testing-library/jest-dom@6.6.3':
+    dependencies:
+      '@adobe/css-tools': 4.4.1
+      aria-query: 5.3.2
+      chalk: 3.0.0
+      css.escape: 1.5.1
+      dom-accessibility-api: 0.6.3
+      lodash: 4.17.21
+      redent: 3.0.0
+
   '@testing-library/react@16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.26.0
@@ -6337,7 +6450,7 @@ snapshots:
       msw: 2.7.0(@types/node@22.10.5)(typescript@5.7.2)
       sirv: 3.0.0
       tinyrainbow: 1.2.0
-      vitest: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+      vitest: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
       ws: 8.18.0
     optionalDependencies:
       playwright: 1.49.1
@@ -7346,6 +7459,11 @@ snapshots:
   graphemer@1.4.0: {}
 
   graphql@16.10.0: {}
+
+  happy-dom@16.3.0:
+    dependencies:
+      webidl-conversions: 7.0.0
+      whatwg-mimetype: 3.0.0
 
   has-bigints@1.1.0: {}
 
@@ -8853,12 +8971,12 @@ snapshots:
       '@vitest/browser': 2.1.8(@types/node@22.10.5)(playwright@1.49.1)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vitest@2.1.8)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      vitest: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
+      vitest: 2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0)
     optionalDependencies:
       '@types/react': 18.3.18
       '@types/react-dom': 18.3.5(@types/react@18.3.18)
 
-  vitest@2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0):
+  vitest@2.1.8(@types/node@22.10.5)(@vitest/browser@2.1.8)(happy-dom@16.3.0)(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(terser@5.37.0):
     dependencies:
       '@vitest/expect': 2.1.8
       '@vitest/mocker': 2.1.8(msw@2.7.0(@types/node@22.10.5)(typescript@5.7.2))(vite@5.4.11(@types/node@22.10.5)(terser@5.37.0))
@@ -8883,6 +9001,7 @@ snapshots:
     optionalDependencies:
       '@types/node': 22.10.5
       '@vitest/browser': 2.1.8(@types/node@22.10.5)(playwright@1.49.1)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@1.21.7)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(vitest@2.1.8)
+      happy-dom: 16.3.0
     transitivePeerDependencies:
       - less
       - lightningcss
@@ -8900,7 +9019,11 @@ snapshots:
     dependencies:
       defaults: 1.0.4
 
+  webidl-conversions@7.0.0: {}
+
   webpack-virtual-modules@0.6.2: {}
+
+  whatwg-mimetype@3.0.0: {}
 
   which-boxed-primitive@1.1.1:
     dependencies:
