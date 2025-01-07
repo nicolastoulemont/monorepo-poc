@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev:helpdesk": "pnpm --filter=@poc/helpdesk dev",
     "build:affected": "pnpm nx affected -t build",
     "lint:affected": "pnpm nx affected -t lint",
     "typecheck:affected": "pnpm nx affected -t typecheck",
