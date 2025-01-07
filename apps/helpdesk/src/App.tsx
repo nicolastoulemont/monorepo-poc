@@ -3,6 +3,7 @@ import "@poc/two/dist/index.css"
 import { ComponentContainer } from "@poc/one"
 import { ComponentContainer as ComponentContainer2 } from "@poc/two"
 import { ComponentContainer as ComponentContainer3 } from "@poc/three"
+import { ComponentContainer as ComponentContainer4 } from "@poc/four"
 export function App() {
   return (
     
@@ -11,6 +12,7 @@ export function App() {
       <ComponentContainer />
       <ComponentContainer2 />
       <ComponentContainer3 />
+      <ComponentContainer4 />
     </div>
   )
 }
