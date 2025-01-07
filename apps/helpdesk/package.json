@@ -19,6 +19,7 @@
     "@poc/five": "workspace:*",
     "@poc/six": "workspace:*",
     "@poc/ui": "workspace:*",
+    "@poc/seven": "workspace:*",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
