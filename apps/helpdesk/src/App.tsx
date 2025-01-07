@@ -11,6 +11,9 @@ import { ComponentContainer as ComponentContainer8 } from "@poc/eight"
 import { ComponentContainer as ComponentContainer9 } from "@poc/nine"
 import { ComponentContainer as ComponentContainer10 } from "@poc/ten"
 import { ComponentContainer as ComponentContainer11 } from "@poc/eleven"
+import { ComponentContainer as ComponentContainer12 } from "@poc/twelve"
+
+
 export function App() {
   return (
     
@@ -27,6 +30,7 @@ export function App() {
       <ComponentContainer9 />
       <ComponentContainer10 />
       <ComponentContainer11 />
+      <ComponentContainer12 />
     </div>
   )
 }
