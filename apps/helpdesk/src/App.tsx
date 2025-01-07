@@ -3,13 +3,15 @@ import "@poc/two/dist/index.css"
 import { ComponentContainer } from "@poc/one"
 import { ComponentContainer as ComponentContainer2 } from "@poc/two"
 
-function App() {
+export function App() {
   return (
+    
     <div className="min-h-screen w-full">
+      <h1>Hello Vitest!!</h1>
       <ComponentContainer />
       <ComponentContainer2 />
     </div>
   )
 }
 
-export default App
+

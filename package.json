@@ -6,10 +6,12 @@
   "scripts": {
     "build:affected": "pnpm nx affected -t build",
     "lint:affected": "pnpm nx affected -t lint",
+    "typecheck:affected": "pnpm nx affected -t typecheck",
     "test:affected": "pnpm nx affected -t test",
     "build:all": "pnpm nx run-many -t build",
     "lint:all": "pnpm nx run-many -t lint",
     "test:all": "pnpm nx run-many -t test",
+    "typecheck:all": "pnpm nx run-many -t typecheck",
     "deps:sync:list": "pnpm syncpack list"
   },
   "keywords": [],
