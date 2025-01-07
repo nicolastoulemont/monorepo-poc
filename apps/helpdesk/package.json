@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@poc/helpdesk",
   "private": true,
   "version": "0.0.0",
   "type": "module",

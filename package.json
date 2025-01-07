@@ -1,5 +1,5 @@
 {
-  "name": "monorepo-poc",
+  "name": "helpdesk-monorepo-poc",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +8,7 @@
     "lint:fix": "pnpm biome lint --write .",
     "lint:fix:unsafe": "pnpm biome lint --write --unsafe .",
     "format": "pnpm biome format --write .",
-    "deps:sync:list": "pnpm syncpack list",
-    "generate:components": "tsx scripts/generate.react.components.ts"
+    "deps:sync:list": "pnpm syncpack list"
   },
   "keywords": [],
   "author": "ntoulemont",
