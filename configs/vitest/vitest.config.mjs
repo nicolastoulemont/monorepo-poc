@@ -6,12 +6,6 @@ export default {
   typecheck: {
     enabled: true,
   },
-  browser: {
-    enabled: true,
-    name: "chromium",
-    provider: "playwright",
-    headless: true,
-    // https://playwright.dev
-    providerOptions: {},
-  },
+  environment: 'happy-dom',
+  setupFiles: ['./vitest.setup.ts']
 }

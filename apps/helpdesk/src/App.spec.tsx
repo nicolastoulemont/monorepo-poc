@@ -6,6 +6,6 @@ import { App } from "./App"
 describe("App", () => {
   test("Renders App", () => {
     const { getByText } = render(<App />)
-    expect(getByText("Hello Vitest!!")).toBeInTheDocument()
+    expect(getByText("Hello world!")).toBeInTheDocument()
   })
 })

@@ -4,25 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:helpdesk": "pnpm --filter=@poc/helpdesk dev",
-    "build:affected": "pnpm nx affected -t build",
-    "lint:affected": "pnpm nx affected -t lint",
-    "typecheck:affected": "pnpm nx affected -t typecheck",
-    "test:affected": "pnpm nx affected -t test",
-    "build:all": "pnpm nx run-many -t build",
-    "lint:all": "pnpm nx run-many -t lint",
-    "test:all": "pnpm nx run-many -t test",
-    "typecheck:all": "pnpm nx run-many -t typecheck",
+    "dev:helpdesk:build": "turbo watch build --filter=@poc/helpdesk^...",
+    "dev:helpdesk": "turbo run dev --filter=@poc/helpdesk",
+    "dev:helpdesk:watch": "turbo run dev --filter=@poc/helpdesk... --concurrency=15",
+    "build:affected": "pnpm turbo build --affected",
+    "lint:affected": "pnpm turbo lint --affected",
+    "typecheck:affected": "pnpm turbo typecheck --affected",
+    "test:affected": "pnpm turbo test --affected",
+    "build:all": "pnpm turbo build",
+    "lint:all": "pnpm turbo lint",
+    "test:all": "pnpm turbo test",
+    "typecheck:all": "pnpm turbo typecheck",
     "deps:sync:list": "pnpm syncpack list"
   },
   "keywords": [],
   "author": "ntoulemont",
   "license": "ISC",
+  "packageManager": "pnpm@9.15.3",
   "devDependencies": {
     "@types/node": "^22.10.5",
-    "nx": "20.3.0",
     "syncpack": "^13.0.0",
     "tsx": "^4.19.2",
+    "turbo": "^2.3.3",
     "typescript": "^5.7.2"
   }
 }
