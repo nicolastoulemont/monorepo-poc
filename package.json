@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:helpdesk:turbo": "turbo dev --filter=@poc/helpdesk",
+    "dev:helpdesk:turbo": "turbo run dev --filter=@poc/helpdesk...",
     "dev:helpdesk": "pnpm --filter=@poc/helpdesk dev",
     "build:affected": "pnpm nx affected -t build",
     "lint:affected": "pnpm nx affected -t lint",
