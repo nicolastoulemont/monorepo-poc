@@ -4,9 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "run-p dev:*",
-    "dev:bundle": "vite",
-    "dev:watchdeps": "nx watch --projects=@poc/helpdesk --includeDependentProjects -- nx run-many -t build -p \\$NX_PROJECT_NAME --exclude=@poc/helpdesk",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",

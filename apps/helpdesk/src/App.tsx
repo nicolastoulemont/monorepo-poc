@@ -7,7 +7,7 @@ export function App() {
   return (
     
     <div className="min-h-screen w-full">
-      <h1>Hello Vitest!!</h1>
+      <h1>Hello world</h1>
       <ComponentContainer />
       <ComponentContainer2 />
     </div>

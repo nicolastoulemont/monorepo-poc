@@ -8,7 +8,6 @@
   "scripts": {
     "dev": "vite build --watch",
     "build": "vite build",
-    "build:dev": "pnpm build",
     "lint": "eslint .",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
