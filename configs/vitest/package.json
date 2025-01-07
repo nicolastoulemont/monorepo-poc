@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    ".": "./vitest.config.js"
+    ".": "./vitest.config.mjs"
   },
   "devDependencies": {
     "vitest": "^2.1.8"

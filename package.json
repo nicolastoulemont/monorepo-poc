@@ -4,17 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "pnpm biome lint .",
-    "lint:fix": "pnpm biome lint --write .",
-    "lint:fix:unsafe": "pnpm biome lint --write --unsafe .",
-    "format": "pnpm biome format --write .",
+    "build:affected": "pnpm nx affected -t build",
+    "lint:affected": "pnpm nx affected -t lint",
+    "test:affected": "pnpm nx affected -t test",
+    "build:all": "pnpm nx run-many -t build",
+    "lint:all": "pnpm nx run-many -t lint",
+    "test:all": "pnpm nx run-many -t test",
     "deps:sync:list": "pnpm syncpack list"
   },
   "keywords": [],
   "author": "ntoulemont",
   "license": "ISC",
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
     "@types/node": "^22.10.5",
     "nx": "20.3.0",
     "syncpack": "^13.0.0",

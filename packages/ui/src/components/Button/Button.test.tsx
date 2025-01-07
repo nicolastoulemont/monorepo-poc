@@ -1,9 +1,11 @@
-import { expect, test } from "vitest"
-import { render } from "vitest-browser-react"
+import { expect, describe, test } from "vitest"
+import { render } from '@testing-library/react';
 import { Button } from "./Button"
-import "../../index.css"
 
-test("Renders children", async () => {
-  const { getByText } = render(<Button>Hello Vitest!</Button>)
-  await expect.element(getByText("Hello Vitest!")).toBeInTheDocument()
+
+describe("Button", () => {
+  test("Renders children", () => {
+    const { getByText } = render(<Button>Hello Vitest!!</Button>)
+    expect(getByText("Hello Vitest!!")).toBeInTheDocument()
+  })
 })
